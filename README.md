@@ -39,7 +39,7 @@ Connection have to be done following the lib instructions on setup.h file
 //#define TFT_D7   14
 
 
-
+![ESP32 Vroom 30 pin .jpg](/Pict/ESP32 Vroom 30 pin .jpg)
 
 
 
