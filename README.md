@@ -16,28 +16,19 @@ https://github.com/Bodmer/TFT_eSPI.git
 
 Connection have to be done following the lib instructions on setup.h file
 
-// Parallel bus is only supported on ESP32
-// Uncomment line below to use ESP32 Parallel interface instead of SPI
+My setup.h is :
 
-//#define ESP32_PARALLEL
-
-// The ESP32 and TFT the pins used for testing are:
-//#define TFT_CS   33  // Chip select control pin (library pulls permanently low
-//#define TFT_DC   15  // Data Command control pin - use a pin in the range 0-31
-//#define TFT_RST  32  // Reset pin, toggles on startup
-
-//#define TFT_WR    4  // Write strobe control pin - use a pin in the range 0-31
-//#define TFT_RD    2  // Read strobe control pin  - use a pin in the range 0-31
-
-//#define TFT_D0   12  // Must use pins in the range 0-31 for the data bus
-//#define TFT_D1   13  // so a single register write sets/clears all bits.
-//#define TFT_D2   26  // Pins can be randomly assigned, this does not affect
-//#define TFT_D3   25  // TFT screen update performance.
-//#define TFT_D4   17
-//#define TFT_D5   16
-//#define TFT_D6   27
-//#define TFT_D7   14
-
+-#if defined(ESP32)
+-// For ESP32 Dev board (only tested with ILI9341 display)
+-// The hardware SPI can be mapped to any pins
+-
+-#define TFT_MISO 19
+-#define TFT_MOSI 23
+-#define TFT_SCLK 18
+-#define TFT_CS    15 //15  // Chip select control pin
+-#define TFT_DC    2  //2  // Data Command control pin
+-#define TFT_RST   4  //4  // Reset pin (could connect to RST pin)
+-
 
 ![Sat_esp32Vroom30pin.jpg](/Pict/Sat_esp32Vroom30pin.jpg)
 
