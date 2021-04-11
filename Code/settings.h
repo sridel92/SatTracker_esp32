@@ -10,11 +10,11 @@
 
 #include <Arduino.h>
 #include "TZ.h"
-#define WIFI_HOSTNAME "SRID-weather-station-color"
+#define WIFI_HOSTNAME "azzzzzzzz"
 #define DEBUG                 //Enable serial output.
 
-const char* ssid = "PierreJoigneaux124";       //  your network SSID (name)
-const char* password = "LaPetiteCabane123";        // your network password
+const char* ssid = "xxxxxxxxxxxxxx";       //  your network SSID (name)
+const char* password = "yyyyyyyyyyyyyyyyy";        // your network password
 
 ///////////////#define WIFI_HOSTNAME "SRID-weather-station-color"
 // NTP Servers:
