@@ -1,7 +1,7 @@
 # SatTracker_esp32
 a Sat tracker with ESP32
 
-![IMG_0838.png](/Pict/IMG_0838.png)
+![Sat_esp32_Map.jpg](/Pict/Sat_esp32_Map.jpg)
 
 
 ILI9341 Screen
