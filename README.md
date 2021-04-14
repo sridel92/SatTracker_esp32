@@ -39,8 +39,7 @@ Note : all images (BMP format) are a bit touchy to convert to be compatible with
 
 they are all uploaded in SFPIFFS memory and you need ESP add-on for this
 
-
-
+You can find more about this here : https://randomnerdtutorials.com/esp32-web-server-spiffs-spi-flash-file-system
 
 
 Begin with provided example.
