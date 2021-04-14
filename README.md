@@ -31,6 +31,16 @@ My setup.h is :
 
 ![Sat_esp32Vroom30pin.jpg](/Pict/Sat_esp32Vroom30pin.jpg)
 
+Pin board
+![tft_ILI9341_with_touch.jpg](/Pict/tft_ILI9341_with_touch.jpg)
+
+
+Note : all images (BMP format) are a bit touchy to convert to be compatible with the libray
+
+they are all uploaded in SFPIFFS memory and you need ESP add-on for this
+
+
+
 
 
 Begin with provided example.
