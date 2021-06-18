@@ -3,6 +3,8 @@ a Sat tracker with ESP32
 
 note on 2021 05 01 : I have uploaded the "multi" code able to follow many sat with colored traces on screen
 
+note on 2021 06 18 : a complete V2 version is on another repo (Wiimanager and ST7789v screen)
+
 
 
 ![Sat_esp32_Map.jpg](/Pict/Sat_esp32_Map.jpg)
